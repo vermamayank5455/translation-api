@@ -26,8 +26,8 @@ API Usage
 To translate text, make a GET request to /translate with the following query parameters:
 
 text: The text to be translated.
-source_lang (optional, default is "en"): The language code of the text to be translated.
-target_lang (optional, default is "es"): The language code of the desired translation.
+source_lang : The language code of the text to be translated.
+target_lang : The language code of the desired translation.
 Example usage:
 
 vbnet
